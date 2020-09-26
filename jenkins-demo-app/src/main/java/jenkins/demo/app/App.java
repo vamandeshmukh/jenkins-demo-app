@@ -8,8 +8,8 @@ package jenkins.demo.app;
 public class App {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
-		DemoClass obj = new DemoClass();
-		obj.m1();
+		DemoClass demoClass = new DemoClass();
+		demoClass.m1();
 
 	}
 }
